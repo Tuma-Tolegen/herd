@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body {	
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+.bg-light{
+	background-color: #D9C657 !important;
+}
+.navbar-light .navbar-brand :hover,
+.navbar-light .navbar-brand {
+	width: 55px;
+	height: 55px;	
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .active .nav-link{
+	font-weight: 600;
+	font-size: 18px;
+	background:#000002;
+	color: #FFF;
+}
+.navbar-light .navbar-nav .nav-item{
+	margin: 0 15px;	
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+	z-index: 10;
+}
+	
+.carousel-item {
+	height: 700px;
+}
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.professionals {
+    width: 500px;
+    border-radius: 40px;
+}
+.circle{
+	width: 300px;
+	height: 300px;
+	background-color: #D9C657;
+	margin: 8% auto;
+	border-radius: 50%;
+	position: relative;	
+}
+.content{
+	position: absolute;
+	width: inherit;
+	height: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";	
+}
+.explanation{
+	margin: 10% auto;
+}
+.questionForm{
+	margin: 5% auto;
+}
+.questionForm h3{
+	background-color: #D9C657; 
+}
+footer {
+	background-color: #D9C657 !important;
+	padding: 40px 0;
+	line-height: 25px;
+	
+}
