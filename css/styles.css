@@ -57,6 +57,9 @@ body {
 	border-radius: 50%;
 	position: relative;	
 }
+.aboutus {
+	align-content: center;
+}
 .content{
 	position: absolute;
 	width: inherit;
@@ -73,6 +76,34 @@ body {
 }
 .questionForm h3{
 	background-color: #D9C657; 
+}
+.jumbotron{
+    background-image: url("../images/forum-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profiles{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 80px;
+}
+.profile-img{
+	border-radius: 50%;
+	filter: grayscale(100%);
+	cursor: pointer;
+	transition: 400ms;
+}
+.profile:hover .profile-img {
+	filter: grayscale(0%);
+}
+.user-name{
+	margin-top: 30px;
+}
+.profile p{
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: justify;
+	
 }
 footer {
 	background-color: #D9C657 !important;
