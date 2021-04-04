@@ -4,6 +4,8 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
 }
 .bg-light{
 	background-color: #D9C657 !important;
@@ -68,8 +70,11 @@ body {
 	transform: translateY(-50%);
 	text-align: center;
 }
+.instruction{
+	margin: 0 auto;
+}
 .explanation{
-	margin: 10% auto;
+	margin: 5% auto;
 }
 .questionForm{
 	margin: 5% auto;
@@ -102,9 +107,24 @@ body {
 .profile p{
 	font-size: 16px;
 	margin-top: 20px;
-	text-align: justify;
-	
+	text-align: justify;	
 }
+.productcards {
+	width: 100%;
+	height: 100vh;
+	margin: 0 10px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	background-color: #EEEEEE;
+}
+.container{
+	padding: 30px 0;
+	background-color: #FFFFFF;
+}
+.backgroundimage{
+	width: 100%;
+	height: auto;
+} 
 footer {
 	background-color: #D9C657 !important;
 	padding: 40px 0;
